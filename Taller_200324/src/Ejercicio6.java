@@ -1,7 +1,7 @@
 public class Ejercicio6 {
 
         public static void main(String[] args) {
-            // Ejemplo de uso
+    
             long segundos = 10000;
             String tipo = "dias"; 
             
@@ -27,7 +27,7 @@ public class Ejercicio6 {
                     resultado = segundos / SEGUNDOS_POR_MINUTO;
                     break;
                 default:
-                    System.out.println("Tipo de conversión no válido.");
+                    System.out.println("Tipo de conversion no valido.");
                     break;
             }
             
